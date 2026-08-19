@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presupuesto en Pareja: Cómo Dividir los Gastos del Hogar de Forma Justa | Mexi Aprende</title>
+<meta name="description" content="Guía educativa sobre cómo organizar el presupuesto en pareja: métodos 50/50 vs. proporcional al ingreso, cuentas conjuntas o separadas, y metas de ahorro compartidas.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mexiaprende.site/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Presupuesto en Pareja: Cómo Dividir los Gastos del Hogar de Forma Justa">
+<meta property="og:description" content="Métodos para organizar el presupuesto compartido, cuentas conjuntas vs. separadas y cómo hablar de dinero en pareja sin conflicto.">
+<meta property="og:site_name" content="Mexi Aprende">
+<meta property="og:locale" content="es_MX">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,600;0,700;1,500&family=Karla:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Presupuesto en Pareja: Cómo Dividir los Gastos del Hogar de Forma Justa (Aunque Ganen Diferente)",
+  "description": "Guía educativa sobre métodos para dividir gastos del hogar en pareja, cuentas conjuntas vs. separadas y metas de ahorro compartidas.",
+  "author": {
+    "@type": "Person",
+    "name": "Wadith Eduardo Sierra Mulet"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mexi Aprende",
+    "url": "https://mexiaprende.site"
+  },
+  "mainEntityOfPage": "https://mexiaprende.site/",
+  "inLanguage": "es-MX"
+}
+</script>
+
+<style>
+  :root{
+    --bg: #FAF7F1;
+    --bg-panel: #F1ECE1;
+    --ink: #262220;
+    --ink-soft: #6B6259;
+    --teal: #1F5C63;
+    --teal-deep: #163F45;
+    --rose: #B5495B;
+    --rose-deep: #8F3646;
+    --gold: #C9932E;
+    --line: #E2D9C8;
+    --white: #FFFDFA;
+    --radius: 4px;
+    --maxw: 1120px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:'Karla', sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.display{
+    font-family:'Bitter', serif;
+    color:var(--ink);
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  .mono{
+    font-family:'IBM Plex Mono', monospace;
+    letter-spacing:0.02em;
+  }
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+  .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;}
+  :focus-visible{outline:3px solid var(--gold);outline-offset:2px;}
+
+  /* ---------- Split bar signature element ---------- */
+  .splitbar{
+    display:flex;
+    width:100%;
+    height:10px;
+    border-radius:999px;
+    overflow:hidden;
+    box-shadow:inset 0 0 0 1px rgba(0,0,0,0.06);
+  }
+  .splitbar span{display:block;height:100%;}
+  .splitbar .a{background:var(--teal);}
+  .splitbar .b{background:var(--rose);}
+
+  .divider{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin:56px 0;
+  }
+  .divider .splitbar{flex:1;height:6px;}
+  .divider .mark{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    white-space:nowrap;
+  }
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky;top:0;z-index:40;
+    background:rgba(250,247,241,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  header.site .bar{
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 24px;
+  }
+  .logo{
+    display:flex;align-items:center;gap:10px;
+    font-family:'Bitter', serif;font-weight:700;font-size:19px;
+    text-decoration:none;color:var(--ink);
+  }
+  .logo .mark{
+    width:26px;height:26px;border-radius:999px;overflow:hidden;
+    display:flex;box-shadow:0 0 0 1px rgba(0,0,0,0.08);
+  }
+  .logo .mark span{flex:1;}
+  .logo .mark .a{background:var(--teal);}
+  .logo .mark .b{background:var(--rose);}
+  nav.primary{display:flex;gap:28px;}
+  nav.primary a{
+    font-size:14.5px;font-weight:600;text-decoration:none;color:var(--ink-soft);
+    transition:color .15s ease;
+  }
+  nav.primary a:hover{color:var(--ink);}
+  .nav-toggle{display:none;background:none;border:0;cursor:pointer;padding:6px;}
+  .nav-toggle span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:64px 0 40px;
+    border-bottom:1px solid var(--line);
+  }
+  .hero .grid{
+    display:grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    gap:48px;
+    align-items:center;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    text-transform:uppercase;
+    letter-spacing:0.12em;
+    color:var(--rose-deep);
+    margin-bottom:18px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .eyebrow::before{
+    content:"";width:16px;height:2px;background:var(--gold);display:inline-block;
+  }
+  .hero h1{
+    font-size:44px;
+    line-height:1.12;
+    font-weight:700;
+  }
+  .hero h1 em{
+    font-style:italic;color:var(--teal-deep);
+  }
+  .hero p.lead{
+    margin-top:20px;
+    font-size:18px;
+    color:var(--ink-soft);
+    max-width:46ch;
+  }
+  .hero .cta-row{
+    margin-top:32px;
+    display:flex;gap:16px;flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:13px 24px;
+    border-radius:999px;
+    font-weight:700;font-size:15px;
+    text-decoration:none;
+    border:1px solid transparent;
+    cursor:pointer;
+    transition:transform .12s ease, background .15s ease;
+  }
+  .btn-primary{background:var(--teal);color:var(--white);}
+  .btn-primary:hover{background:var(--teal-deep);}
+  .btn-ghost{background:transparent;border-color:var(--ink);color:var(--ink);}
+  .btn-ghost:hover{background:var(--ink);color:var(--white);}
+
+  /* ledger card */
+  .ledger-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:28px 26px;
+    box-shadow:0 18px 40px -22px rgba(38,34,32,0.35);
+  }
+  .ledger-card .title{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px;
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    color:var(--ink-soft);
+    margin-bottom:16px;
+  }
+  .ledger-row{
+    display:flex;justify-content:space-between;align-items:baseline;
+    padding:10px 0;
+    border-bottom:1px dashed var(--line);
+    font-family:'IBM Plex Mono', monospace;
+    font-size:14px;
+  }
+  .ledger-row:last-of-type{border-bottom:none;}
+  .ledger-row .who{display:flex;align-items:center;gap:8px;color:var(--ink);font-weight:600;}
+  .dot{width:9px;height:9px;border-radius:999px;display:inline-block;}
+  .dot.a{background:var(--teal);}
+  .dot.b{background:var(--rose);}
+  .ledger-card .splitbar{margin:18px 0 8px;}
+  .ledger-card .caption{
+    font-size:12px;color:var(--ink-soft);margin-top:4px;
+  }
+
+  /* ---------- Layout: article + toc ---------- */
+  main{padding:56px 0 0;}
+  .article-layout{
+    display:grid;
+    grid-template-columns: 220px 1fr;
+    gap:56px;
+    align-items:start;
+  }
+  aside.toc{
+    position:sticky;top:96px;
+    padding:20px 0 20px 0;
+  }
+  aside.toc .label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;text-transform:uppercase;letter-spacing:0.1em;
+    color:var(--ink-soft);margin-bottom:14px;
+  }
+  aside.toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px;}
+  aside.toc a{
+    text-decoration:none;font-size:14px;color:var(--ink-soft);font-weight:600;
+    display:flex;gap:10px;align-items:flex-start;
+    transition:color .15s ease;
+  }
+  aside.toc a:hover{color:var(--ink);}
+  aside.toc .n{
+    font-family:'IBM Plex Mono', monospace;font-size:11px;color:var(--gold);
+    padding-top:2px;
+  }
+
+  article.post{max-width:72ch;}
+  article.post > p.standfirst{
+    font-size:19px;
+    color:var(--ink-soft);
+    margin:0 0 8px;
+  }
+  .meta-row{
+    display:flex;gap:16px;align-items:center;flex-wrap:wrap;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;color:var(--ink-soft);
+    margin:18px 0 40px;
+    padding-bottom:24px;border-bottom:1px solid var(--line);
+  }
+  .meta-row .badge{
+    background:var(--bg-panel);
+    padding:4px 10px;border-radius:999px;
+  }
+
+  article.post h2{
+    font-size:26px;margin-top:52px;margin-bottom:6px;
+    display:flex;align-items:center;gap:12px;
+  }
+  article.post h2 .num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:14px;color:var(--gold);
+    background:var(--bg-panel);
+    border-radius:999px;
+    width:30px;height:30px;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+  }
+  article.post .subhead{
+    color:var(--ink-soft);font-size:14.5px;margin-bottom:18px;
+  }
+  article.post p{margin:0 0 18px;}
+  article.post ul{margin:0 0 20px;padding-left:20px;}
+  article.post li{margin-bottom:10px;}
+  article.post strong{color:var(--ink);}
+
+  .method-card{
+    background:var(--white);
+    border:1px solid var(--line);
+    border-left:4px solid var(--teal);
+    border-radius:8px;
+    padding:18px 20px;
+    margin:0 0 16px;
+  }
+  .method-card.rose{border-left-color:var(--rose);}
+  .method-card .name{
+    font-weight:700;font-family:'Bitter',serif;font-size:16.5px;margin-bottom:6px;
+  }
+
+  .pull-note{
+    background:var(--bg-panel);
+    border-radius:10px;
+    padding:20px 22px;
+    font-size:15px;
+    color:var(--ink);
+    margin:28px 0;
+  }
+  .pull-note .tag{
+    font-family:'IBM Plex Mono',monospace;font-size:11px;text-transform:uppercase;
+    letter-spacing:0.08em;color:var(--rose-deep);display:block;margin-bottom:8px;
+  }
+
+  .conclusion{
+    margin-top:56px;
+    padding-top:36px;
+    border-top:1px solid var(--line);
+  }
+  .conclusion h2{font-size:24px;}
+  .conclusion .cta-box{
+    margin-top:24px;
+    background:var(--teal-deep);
+    color:var(--white);
+    border-radius:14px;
+    padding:30px 28px;
+    display:flex;justify-content:space-between;align-items:center;gap:24px;
+    flex-wrap:wrap;
+  }
+  .conclusion .cta-box p{color:rgba(255,255,255,0.82);margin:6px 0 0;max-width:44ch;font-size:15px;}
+  .conclusion .cta-box h3{color:var(--white);font-size:19px;}
+  .conclusion .btn-light{background:var(--white);color:var(--teal-deep);}
+  .conclusion .btn-light:hover{background:var(--gold);color:var(--white);}
+
+  /* ---------- About / disclosure strip ---------- */
+  .about-strip{
+    margin-top:88px;
+    background:var(--bg-panel);
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .about-strip .grid{
+    display:grid;grid-template-columns:1fr 1fr;gap:40px;
+    padding:56px 0;
+  }
+  .about-strip h2{font-size:22px;margin-bottom:14px;}
+  .about-strip p{color:var(--ink-soft);font-size:15px;margin:0 0 12px;}
+  .about-strip .signature{
+    font-family:'IBM Plex Mono', monospace;font-size:13px;color:var(--ink-soft);
+    display:flex;align-items:center;gap:10px;margin-top:18px;
+  }
+
+  /* ---------- Footer ---------- */
+  footer.site{padding:64px 0 32px;}
+  footer.site .grid{
+    display:grid;grid-template-columns: 1.2fr 1fr 1fr;gap:40px;
+    padding-bottom:40px;border-bottom:1px solid var(--line);
+  }
+  footer.site h4{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11.5px;text-transform:uppercase;letter-spacing:0.1em;
+    color:var(--ink-soft);margin-bottom:16px;
+  }
+  footer.site .contact-block p{margin:0 0 6px;font-size:14.5px;color:var(--ink-soft);}
+  footer.site .contact-block strong{color:var(--ink);display:block;font-family:'Bitter',serif;font-size:17px;margin-bottom:8px;}
+  footer.site ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
+  footer.site ul a{
+    text-decoration:none;font-size:14.5px;color:var(--ink-soft);
+    background:none;border:none;cursor:pointer;text-align:left;font-family:inherit;padding:0;
+  }
+  footer.site ul a:hover{color:var(--ink);}
+  .disclaimer-box{
+    margin-top:28px;
+    background:var(--white);
+    border:1px solid var(--line);
+    border-radius:10px;
+    padding:20px 22px;
+    font-size:13.5px;
+    color:var(--ink-soft);
+    line-height:1.6;
+  }
+  .disclaimer-box strong{color:var(--ink);}
+  .bottom-row{
+    display:flex;justify-content:space-between;align-items:center;
+    padding-top:24px;flex-wrap:wrap;gap:12px;
+    font-size:13px;color:var(--ink-soft);
+  }
+
+  /* ---------- Modal ---------- */
+  .modal-overlay{
+    position:fixed;inset:0;background:rgba(38,34,32,0.55);
+    display:none;align-items:center;justify-content:center;
+    padding:24px;z-index:100;
+  }
+  .modal-overlay.open{display:flex;}
+  .modal-box{
+    background:var(--white);
+    border-radius:14px;
+    max-width:640px;width:100%;
+    max-height:82vh;overflow-y:auto;
+    padding:36px 32px;
+    position:relative;
+    box-shadow:0 30px 60px -20px rgba(0,0,0,0.35);
+  }
+  .modal-box h2{font-size:22px;margin-bottom:18px;}
+  .modal-box h3{font-size:15.5px;margin:22px 0 8px;}
+  .modal-box p{font-size:14.5px;color:var(--ink-soft);margin:0 0 12px;line-height:1.65;}
+  .modal-box p strong{color:var(--ink);}
+  .modal-close{
+    position:absolute;top:18px;right:18px;
+    background:var(--bg-panel);border:none;border-radius:999px;
+    width:34px;height:34px;cursor:pointer;font-size:16px;color:var(--ink);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .modal-close:hover{background:var(--rose);color:var(--white);}
+
+  /* ---------- Cookie banner ---------- */
+  #cookie-banner{
+    position:fixed;left:20px;right:20px;bottom:20px;
+    max-width:640px;margin:0 auto;
+    background:var(--ink);color:var(--white);
+    border-radius:14px;
+    padding:20px 22px;
+    display:none;
+    align-items:center;gap:18px;flex-wrap:wrap;
+    z-index:90;
+    box-shadow:0 24px 50px -18px rgba(0,0,0,0.5);
+  }
+  #cookie-banner.show{display:flex;}
+  #cookie-banner p{margin:0;font-size:13.5px;color:rgba(255,255,255,0.82);flex:1;min-width:220px;}
+  #cookie-banner p a{color:var(--gold);text-decoration:underline;}
+  #cookie-banner .actions{display:flex;gap:10px;}
+  #cookie-banner button{
+    border:none;border-radius:999px;padding:9px 18px;font-size:13px;font-weight:700;cursor:pointer;
+  }
+  #cookie-accept{background:var(--gold);color:var(--ink);}
+  #cookie-reject{background:transparent;color:rgba(255,255,255,0.75);border:1px solid rgba(255,255,255,0.3);}
+
+  @media (max-width: 860px){
+    .hero .grid{grid-template-columns:1fr;}
+    .article-layout{grid-template-columns:1fr;}
+    aside.toc{position:static;}
+    .about-strip .grid{grid-template-columns:1fr;}
+    footer.site .grid{grid-template-columns:1fr;gap:32px;}
+    nav.primary{
+      position:fixed;top:64px;left:0;right:0;bottom:0;
+      background:var(--bg);
+      flex-direction:column;padding:32px 24px;gap:22px;
+      transform:translateX(100%);transition:transform .2s ease;
+    }
+    nav.primary.open{transform:translateX(0);}
+    .nav-toggle{display:block;}
+    .hero h1{font-size:32px;}
+    .conclusion .cta-box{flex-direction:column;align-items:flex-start;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="bar wrap">
+    <a href="#top" class="logo">
+      <span class="mark"><span class="a"></span><span class="b"></span></span>
+      Mexi Aprende
+    </a>
+    <nav class="primary" id="primaryNav">
+      <a href="#inicio">Inicio</a>
+      <a href="#articulo">Artículo</a>
+      <a href="#sobre">Sobre el sitio</a>
+      <a href="#" data-modal="modal-contacto">Contacto</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="wrap grid">
+      <div>
+        <p class="eyebrow">Finanzas para parejas</p>
+        <h1>Presupuesto a dos: <em>cómo dividir los gastos del hogar sin que nadie sienta que pierde</em></h1>
+        <p class="lead">Una guía educativa sobre métodos de reparto, cuentas conjuntas o separadas, y cómo hablar de dinero en pareja — incluso cuando los ingresos no son iguales.</p>
+        <div class="cta-row">
+          <a href="#articulo" class="btn btn-primary">Leer el artículo</a>
+          <a href="#sobre" class="btn btn-ghost">Sobre este sitio</a>
+        </div>
+      </div>
+      <div class="ledger-card">
+        <p class="title">Ejemplo ilustrativo · reparto proporcional</p>
+        <div class="ledger-row">
+          <span class="who"><span class="dot a"></span>Persona A</span>
+          <span class="mono">60% del ingreso</span>
+        </div>
+        <div class="splitbar"><span class="a" style="width:60%"></span><span class="b" style="width:40%"></span></div>
+        <div class="ledger-row" style="margin-top:14px;">
+          <span class="who"><span class="dot b"></span>Persona B</span>
+          <span class="mono">40% del ingreso</span>
+        </div>
+        <p class="caption">Ejemplo con fines explicativos. Cada pareja define su propia proporción según su situación.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTICLE -->
+  <section class="wrap" id="articulo" style="padding-top:8px;">
+    <div class="article-layout">
+      <aside class="toc" aria-label="Contenido del artículo">
+        <p class="label">En este artículo</p>
+        <ol>
+          <li><a href="#s1"><span class="n">01</span> 50/50 vs. proporcional</a></li>
+          <li><a href="#s2"><span class="n">02</span> Conjunta o separada</a></li>
+          <li><a href="#s3"><span class="n">03</span> Hablar sin conflicto</a></li>
+          <li><a href="#s4"><span class="n">04</span> Metas de ahorro</a></li>
+        </ol>
+      </aside>
+
+      <article class="post">
+        <p class="standfirst">Hablar de dinero en pareja no debería ser un campo minado. Sin embargo, entre alquiler, servicios y mercado, muchas parejas terminan discutiendo por lo mismo: ¿quién paga qué?</p>
+        <div class="meta-row">
+          <span class="badge">Presupuesto compartido</span>
+          <span class="badge">Lectura de 7 min</span>
+          <span>Por Mexi Aprende</span>
+        </div>
+
+        <p>Cuando además los ingresos no son iguales, la pregunta se complica todavía más. La buena noticia es que no existe una única fórmula correcta, sino varios métodos probados que pueden adaptarse a la realidad de cada pareja. En este artículo revisamos las alternativas más comunes para organizar las finanzas compartidas, con el objetivo de que ambas personas sientan que el arreglo es equilibrado y sostenible en el tiempo.</p>
+
+        <h2 id="s1"><span class="num">01</span>Método 50/50 vs. método proporcional al ingreso</h2>
+        <p class="subhead">El primer paso es decidir cómo se van a repartir los gastos fijos.</p>
+
+        <div class="method-card">
+          <div class="name">Método 50/50</div>
+          <p style="margin:0;">Cada persona aporta la misma cantidad, sin importar cuánto gane cada quien. Funciona bien cuando los ingresos son similares, pero puede generar tensión si hay una brecha salarial importante, ya que quien gana menos puede sentir que le queda menos margen para sus gastos personales o su ahorro.</p>
+        </div>
+        <div class="method-card rose">
+          <div class="name">Método proporcional al ingreso</div>
+          <p style="margin:0;">Cada persona aporta un porcentaje de los gastos equivalente al porcentaje que representa su ingreso dentro del ingreso total del hogar. Por ejemplo, si uno gana el 65% del ingreso conjunto, aporta el 65% de los gastos fijos. Muchas parejas con ingresos desiguales consideran este modelo más equitativo, porque el esfuerzo relativo termina siendo similar para ambos.</p>
+        </div>
+        <p>No hay una respuesta universal: lo importante es que el método elegido se sienta justo para las dos personas, no solo matemáticamente correcto.</p>
+
+        <div class="divider"><span class="mark">§</span><span class="splitbar"><span class="a" style="width:50%"></span><span class="b" style="width:50%"></span></span><span class="mark">§</span></div>
+
+        <h2 id="s2"><span class="num">02</span>Cuenta conjunta, cuentas separadas o modelo mixto</h2>
+        <ul>
+          <li><strong>Cuenta conjunta única:</strong> todos los ingresos van a una sola cuenta desde la que se pagan los gastos comunes y también los personales. Simplifica la administración, pero reduce la autonomía individual.</li>
+          <li><strong>Cuentas separadas + gastos compartidos:</strong> cada quien mantiene su cuenta personal y transfiere su parte acordada (50/50 o proporcional) a una cuenta o fondo destinado exclusivamente a gastos del hogar.</li>
+          <li><strong>Modelo mixto:</strong> una cuenta conjunta solo para gastos fijos (alquiler, servicios, mercado) y cuentas personales para todo lo demás. Es el modelo que más eligen las parejas jóvenes, porque combina orden en lo compartido con libertad en lo individual.</li>
+        </ul>
+        <p>La clave no es el nombre de la cuenta, sino tener claridad sobre qué gastos se consideran "del hogar" y cuáles son responsabilidad de cada persona.</p>
+
+        <div class="divider"><span class="mark">§</span><span class="splitbar"><span class="a" style="width:35%"></span><span class="b" style="width:65%"></span></span><span class="mark">§</span></div>
+
+        <h2 id="s3"><span class="num">03</span>Cómo hablar de dinero sin que termine en conflicto</h2>
+        <p>Las discusiones sobre dinero rara vez son solo sobre números; suelen tocar temas de confianza, valores y expectativas. Algunas prácticas que ayudan:</p>
+        <ul>
+          <li><strong>Reuniones financieras breves y periódicas:</strong> dedicar 20-30 minutos al mes a revisar gastos, sin que sea una conversación improvisada en medio de una discusión.</li>
+          <li><strong>Hablar de cifras concretas, no de percepciones:</strong> en lugar de "tú gastas mucho", usar datos reales del mes.</li>
+          <li><strong>Definir un monto de gasto libre individual:</strong> una cantidad que cada persona puede usar sin tener que justificarla, reduce la sensación de estar "vigilados".</li>
+          <li><strong>Revisar el acuerdo cada cierto tiempo:</strong> los ingresos y las circunstancias cambian, y el método elegido puede necesitar ajustes.</li>
+        </ul>
+
+        <div class="pull-note">
+          <span class="tag">Idea clave</span>
+          Definir el método antes de que surja el conflicto suele evitar buena parte de las discusiones sobre dinero.
+        </div>
+
+        <div class="divider"><span class="mark">§</span><span class="splitbar"><span class="a" style="width:55%"></span><span class="b" style="width:45%"></span></span><span class="mark">§</span></div>
+
+        <h2 id="s4"><span class="num">04</span>Metas de ahorro compartidas</h2>
+        <p>Además de cubrir los gastos del presente, muchas parejas encuentran útil definir una meta de ahorro conjunta (por ejemplo, un fondo de emergencia del hogar o un objetivo a mediano plazo). Algunas ideas para plantearlo:</p>
+        <ul>
+          <li>Elegir una meta concreta y con un propósito claro, en lugar de "ahorrar en general".</li>
+          <li>Aportar a esa meta con el mismo criterio usado para los gastos fijos (50/50 o proporcional).</li>
+          <li>Mantener el fondo de ahorro en una cuenta separada de la de los gastos corrientes, para evitar que se mezcle y se termine gastando.</li>
+        </ul>
+
+        <div class="conclusion">
+          <h2>En resumen</h2>
+          <p>No existe un método único que funcione para todas las parejas: lo que sí ayuda es elegir un sistema claro, conversarlo abiertamente y revisarlo con el tiempo.</p>
+          <div class="cta-box">
+            <div>
+              <h3>¿Por dónde empezar?</h3>
+              <p>Puede ser útil comparar los distintos métodos, anotar los gastos fijos actuales y conversarlo en pareja antes de decidir cuál se ajusta mejor a su situación.</p>
+            </div>
+            <a href="#s1" class="btn btn-light">Repasar los métodos</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-strip" id="sobre">
+    <div class="wrap grid">
+      <div>
+        <h2>Sobre Mexi Aprende</h2>
+        <p>Mexi Aprende es un espacio educativo dedicado a explicar, de forma clara y sin tecnicismos, temas de organización financiera cotidiana. Nuestro enfoque actual es la economía compartida en pareja: cómo dividir gastos, organizar cuentas y conversar sobre dinero.</p>
+        <p>Todo el contenido tiene un fin informativo y busca ayudar a comprender distintas opciones — no sustituye la orientación de un profesional financiero.</p>
+        <div class="signature">— Wadith Eduardo Sierra Mulet, titular del sitio</div>
+      </div>
+      <div>
+        <h2>¿Para quién es este contenido?</h2>
+        <p>Está pensado para parejas jóvenes que conviven o están casadas, con ingresos similares o desiguales, que buscan un punto de partida claro para organizar sus finanzas compartidas sin fricciones innecesarias.</p>
+        <p>Publicamos guías breves, prácticas y directas, evitando promesas de resultados o fórmulas que no consideren la situación particular de cada hogar.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site">
+  <div class="wrap">
+    <div class="grid">
+      <div class="contact-block">
+        <strong>Mexi Aprende</strong>
+        <p>Titular: Wadith Eduardo Sierra Mulet</p>
+        <p>Córdoba 132, Roma Nte., Cuauhtémoc,<br>06100 Ciudad de México, CDMX, México</p>
+        <p>Tel: +52 55 6721 8874</p>
+        <p><a href="mailto:soporte@mexiaprende.site" style="color:inherit;">soporte@mexiaprende.site</a></p>
+      </div>
+      <div>
+        <h4>Sitio</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#articulo">Artículo</a></li>
+          <li><a href="#sobre">Sobre el sitio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#" data-modal="modal-aviso">Aviso legal</a></li>
+          <li><a href="#" data-modal="modal-privacidad">Privacidad y términos</a></li>
+          <li><a href="#" data-modal="modal-contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="disclaimer-box">
+      <strong>Aviso:</strong> El contenido publicado en Mexi Aprende (mexiaprende.site) tiene un propósito exclusivamente educativo e informativo. No constituye asesoría financiera, legal, contable ni profesional de ningún tipo, y no debe interpretarse como una recomendación personalizada. Antes de tomar decisiones financieras importantes, se recomienda consultar con un profesional calificado. Wadith Eduardo Sierra Mulet, titular de este sitio, no se hace responsable por las decisiones tomadas con base en la información aquí publicada.
+    </div>
+
+    <div class="bottom-row">
+      <span>© 2026 Mexi Aprende. Todos los derechos reservados.</span>
+      <span>Contenido educativo e informativo. No constituye asesoría financiera.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- MODALS -->
+<div class="modal-overlay" id="modal-aviso">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="aviso-title">
+    <button class="modal-close" data-close>✕</button>
+    <h2 id="aviso-title">Aviso legal</h2>
+    <p>El contenido publicado en <strong>Mexi Aprende</strong> (mexiaprende.site) tiene un propósito exclusivamente educativo e informativo. No constituye asesoría financiera, legal, contable ni profesional de ningún tipo, y no debe interpretarse como una recomendación personalizada.</p>
+    <p>Antes de tomar decisiones financieras importantes, se recomienda consultar con un profesional calificado en la materia.</p>
+    <p><strong>Wadith Eduardo Sierra Mulet</strong>, titular de este sitio, no se hace responsable por las decisiones tomadas con base en la información aquí publicada.</p>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-privacidad">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="privacidad-title">
+    <button class="modal-close" data-close>✕</button>
+    <h2 id="privacidad-title">Política de privacidad y términos de uso</h2>
+    <p>En Mexi Aprende respetamos la privacidad de quienes visitan este sitio. A continuación, un resumen de nuestras prácticas.</p>
+    <h3>Datos personales</h3>
+    <p>Si nos contactas a través de nuestro formulario o correo, recopilamos únicamente los datos que proporcionas voluntariamente (nombre, correo electrónico y mensaje), con el único fin de responder a tu consulta. No vendemos ni compartimos esta información con terceros.</p>
+    <h3>Cookies</h3>
+    <p>Este sitio utiliza cookies propias y de terceros (incluyendo herramientas de análisis y publicidad) para mejorar la experiencia de navegación y mostrar contenido relevante. Puedes gestionar o desactivar las cookies desde la configuración de tu navegador.</p>
+    <h3>Enlaces externos</h3>
+    <p>Este sitio puede contener enlaces a páginas de terceros. No nos hacemos responsables por el contenido o las políticas de privacidad de esos sitios externos.</p>
+    <h3>Deslinde de responsabilidad</h3>
+    <p>La información publicada es de carácter general y educativo. Su aplicación a casos particulares queda bajo responsabilidad exclusiva del usuario.</p>
+    <h3>Contacto</h3>
+    <p>Para consultas relacionadas con privacidad o protección de datos, escríbenos a <strong>soporte@mexiaprende.site</strong>.</p>
+  </div>
+</div>
+
+<div class="modal-overlay" id="modal-contacto">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="contacto-title">
+    <button class="modal-close" data-close>✕</button>
+    <h2 id="contacto-title">Contacto</h2>
+    <p><strong>Mexi Aprende</strong></p>
+    <p>Titular: Wadith Eduardo Sierra Mulet</p>
+    <p>Córdoba 132, Roma Nte., Cuauhtémoc, 06100 Ciudad de México, CDMX, México</p>
+    <p>Teléfono: +52 55 6721 8874</p>
+    <p>Correo: <strong>soporte@mexiaprende.site</strong></p>
+  </div>
+</div>
+
+<!-- COOKIE BANNER -->
+<div id="cookie-banner">
+  <p>Usamos cookies propias y de terceros para mejorar tu experiencia y analizar el uso del sitio. Al continuar navegando, aceptas nuestra <a href="#" data-modal="modal-privacidad">Política de Privacidad</a>.</p>
+  <div class="actions">
+    <button id="cookie-reject">Rechazar</button>
+    <button id="cookie-accept">Aceptar</button>
+  </div>
+</div>
+
+<script>
+  // Mobile nav
+  const navToggle = document.getElementById('navToggle');
+  const primaryNav = document.getElementById('primaryNav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = primaryNav.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  primaryNav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    primaryNav.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  }));
+
+  // Modals
+  document.querySelectorAll('[data-modal]').forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      const modal = document.getElementById(trigger.getAttribute('data-modal'));
+      if (modal) modal.classList.add('open');
+    });
+  });
+  document.querySelectorAll('.modal-overlay').forEach(overlay => {
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) overlay.classList.remove('open');
+    });
+    overlay.querySelector('[data-close]').addEventListener('click', () => overlay.classList.remove('open'));
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.modal-overlay.open').forEach(m => m.classList.remove('open'));
+    }
+  });
+
+  // Cookie banner
+  const cookieBanner = document.getElementById('cookie-banner');
+  const cookieChoice = localStorage.getItem('mexiaprende_cookie_choice');
+  if (!cookieChoice) {
+    cookieBanner.classList.add('show');
+  }
+  document.getElementById('cookie-accept').addEventListener('click', () => {
+    localStorage.setItem('mexiaprende_cookie_choice', 'accepted');
+    cookieBanner.classList.remove('show');
+  });
+  document.getElementById('cookie-reject').addEventListener('click', () => {
+    localStorage.setItem('mexiaprende_cookie_choice', 'rejected');
+    cookieBanner.classList.remove('show');
+  });
+</script>
+
+</body>
+</html>
